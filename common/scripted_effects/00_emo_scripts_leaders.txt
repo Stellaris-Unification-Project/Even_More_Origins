@@ -1554,10 +1554,8 @@ add_random_beneficial_leader_trait = {
 				5 = {
 					if = {
 						limit = {
-							NOT = {
+							NOR = {
 								has_trait = leader_trait_butcher
-							}
-							NOT = {
 								has_trait = leader_trait_restrained
 							}
 						}

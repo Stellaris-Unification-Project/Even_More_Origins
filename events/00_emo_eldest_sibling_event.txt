@@ -7,7 +7,7 @@ event = {
 	fire_only_once = yes
 	immediate = {
 		# "Eldest Sibling" Origin
-		every_country = {
+		every_playable_country = {
 			limit = {
 				is_country_type = default
 				has_country_flag = eldest_sibling_start
@@ -61,7 +61,7 @@ country_event = {
 		hidden_effect = {
 			capital_scope = {
 				choose_random_planet_to_terraform_and_generate_same_species_primitives = yes
-				every_country = {
+				every_playable_country = {
 					limit = {
 						is_country_type = default
 						has_country_flag = eldest_sibling_start
@@ -70,10 +70,8 @@ country_event = {
 						limit = {
 							is_colony = no
 							planet_size < 26
-							NOT = {
-								is_planet_class = pc_gas_giant
-							}
 							NOR = {
+								is_planet_class = pc_gas_giant
 								is_planet_class = pc_a_star
 								is_planet_class = pc_b_star
 								is_planet_class = pc_f_star
@@ -118,10 +116,8 @@ country_event = {
 				limit = {
 					is_colony = no
 					planet_size < 26
-					NOT = {
-						is_planet_class = pc_gas_giant
-					}
 					NOR = {
+						is_planet_class = pc_gas_giant
 						is_planet_class = pc_a_star
 						is_planet_class = pc_b_star
 						is_planet_class = pc_f_star
@@ -166,10 +162,8 @@ country_event = {
 					limit = {
 						is_colony = no
 						planet_size < 26
-						NOT = {
-							is_planet_class = pc_gas_giant
-						}
 						NOR = {
+							is_planet_class = pc_gas_giant
 							is_planet_class = pc_a_star
 							is_planet_class = pc_b_star
 							is_planet_class = pc_f_star

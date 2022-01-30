@@ -7,7 +7,7 @@ event = {
 	fire_only_once = yes
 	immediate = {
 		# "Ecosystem Integration" Origin
-		every_country = {
+		every_playable_country = {
 			limit = {
 				is_country_type = default
 				has_country_flag = hive_world_start
@@ -43,7 +43,7 @@ event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	immediate = {
-		every_country = {
+		every_playable_country = {
 			limit = {
 				is_country_type = default
 				has_country_flag = hive_world_start

@@ -5,10 +5,8 @@ choose_random_planet_to_terraform_and_generate_same_species_primitives = {
 			limit = {
 				is_colony = no
 				planet_size < 26
-				NOT = {
-					is_planet_class = pc_gas_giant
-				}
 				NOR = {
+					is_planet_class = pc_gas_giant
 					is_planet_class = pc_a_star
 					is_planet_class = pc_b_star
 					is_planet_class = pc_f_star
