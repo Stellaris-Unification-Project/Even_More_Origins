@@ -82,8 +82,6 @@ country_event = {
 								is_planet_class = pc_m_giant_star
 								is_planet_class = pc_neutron_star
 								is_planet_class = pc_black_hole
-							}
-							NOR = {
 								is_planet_class = pc_asteroid
 								is_planet_class = pc_ice_asteroid
 								is_planet_class = pc_crystal_asteroid
@@ -128,8 +126,6 @@ country_event = {
 						is_planet_class = pc_m_giant_star
 						is_planet_class = pc_neutron_star
 						is_planet_class = pc_black_hole
-					}
-					NOR = {
 						is_planet_class = pc_asteroid
 						is_planet_class = pc_ice_asteroid
 						is_planet_class = pc_crystal_asteroid
@@ -174,8 +170,6 @@ country_event = {
 							is_planet_class = pc_m_giant_star
 							is_planet_class = pc_neutron_star
 							is_planet_class = pc_black_hole
-						}
-						NOR = {
 							is_planet_class = pc_asteroid
 							is_planet_class = pc_ice_asteroid
 							is_planet_class = pc_crystal_asteroid
